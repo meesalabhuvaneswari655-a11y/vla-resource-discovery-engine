@@ -57,39 +57,39 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ----------------- SIDEBAR -----------------
-with st.sidebar:
-    st.header("⚙️ Evaluation Parameters")
+# with st.sidebar:
+#     st.header("⚙️ Evaluation Parameters")
 
-    st.subheader("Query Presets")
-    preset_choice = st.selectbox(
-        "Load Example Goal:",
-        [
-            "Object Manipulation & VLA Stack (Technical Prompt)",
-            "Bimanual ALOHA Policy & Teleoperation",
-            "Dexterous Hands & High-Speed Physics Sim",
-            "Mobile Manipulation & Kitchen Tasks",
-        ],
-    )
+#     st.subheader("Query Presets")
+#     preset_choice = st.selectbox(
+#         "Load Example Goal:",
+#         [
+#             "Object Manipulation & VLA Stack (Technical Prompt)",
+#             "Bimanual ALOHA Policy & Teleoperation",
+#             "Dexterous Hands & High-Speed Physics Sim",
+#             "Mobile Manipulation & Kitchen Tasks",
+#         ],
+#     )
 
-    preset_queries = {
-        "Object Manipulation & VLA Stack (Technical Prompt)": (
-            "Find the best open-source datasets, VLM architectures, robotics datasets, "
-            "simulation environments, and training frameworks for developing a vision-language-action "
-            "model for a robot capable of object manipulation and natural-language instruction following."
-        ),
-        "Bimanual ALOHA Policy & Teleoperation": (
-            "Find best imitation learning frameworks, bimanual datasets, and simulation environments "
-            "for dual-arm fine manipulation tasks like peg insertion and folding."
-        ),
-        "Dexterous Hands & High-Speed Physics Sim": (
-            "Find high-throughput GPU simulators, dexterous hand policies, and training frameworks "
-            "for in-hand object rotation."
-        ),
-        "Mobile Manipulation & Kitchen Tasks": (
-            "Find simulation benchmarks, mobile manipulator datasets, and generalist vision-language policies "
-            "for household long-horizon kitchen tasks."
-        ),
-    }
+#     preset_queries = {
+#         "Object Manipulation & VLA Stack (Technical Prompt)": (
+#             "Find the best open-source datasets, VLM architectures, robotics datasets, "
+#             "simulation environments, and training frameworks for developing a vision-language-action "
+#             "model for a robot capable of object manipulation and natural-language instruction following."
+#         ),
+#         "Bimanual ALOHA Policy & Teleoperation": (
+#             "Find best imitation learning frameworks, bimanual datasets, and simulation environments "
+#             "for dual-arm fine manipulation tasks like peg insertion and folding."
+#         ),
+#         "Dexterous Hands & High-Speed Physics Sim": (
+#             "Find high-throughput GPU simulators, dexterous hand policies, and training frameworks "
+#             "for in-hand object rotation."
+#         ),
+#         "Mobile Manipulation & Kitchen Tasks": (
+#             "Find simulation benchmarks, mobile manipulator datasets, and generalist vision-language policies "
+#             "for household long-horizon kitchen tasks."
+#         ),
+#     }
 
     st.markdown("---")
     st.subheader("Scoring Weights Tuning")
