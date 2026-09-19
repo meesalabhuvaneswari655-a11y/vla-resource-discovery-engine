@@ -1,0 +1,204 @@
+{
+  "cached_at": 1789809374.984884,
+  "provider": "github",
+  "data": [
+    {
+      "id": "gh-starVLA-starVLA",
+      "name": "starVLA",
+      "category": "vla_policy",
+      "summary": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
+      "description": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
+      "authors": null,
+      "organization": "starVLA",
+      "url": "https://github.com/starVLA/starVLA",
+      "github_url": "https://github.com/starVLA/starVLA",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "NOASSERTION",
+      "license_type": "unknown",
+      "published_date": "2026-09-17",
+      "github_stars": 3693,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "robotic-foundation-model",
+        "robotics",
+        "vision-language-action-model",
+        "world-action-model"
+      ],
+      "source": "github",
+      "scores": null
+    },
+    {
+      "id": "gh-jonyzhang2023-awesome-embodied-vla-va-vln",
+      "name": "awesome-embodied-vla-va-vln",
+      "category": "vla_policy",
+      "summary": "A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and rel",
+      "description": "A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches. ",
+      "authors": null,
+      "organization": "jonyzhang2023",
+      "url": "https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln",
+      "github_url": "https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "Unknown",
+      "license_type": "unknown",
+      "published_date": "2026-09-15",
+      "github_stars": 3541,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [],
+      "source": "github",
+      "scores": null
+    },
+    {
+      "id": "gh-Mininglamp-AI-Mano-P",
+      "name": "Mano-P",
+      "category": "vla_policy",
+      "summary": "Mano-P: Open-source GUI-VLA agent for edge devices. #1 on OSWorld (specialized, 58.2%). Runs locally on Apple M4 Mac mini/MacBook \u2014 no data leaves you",
+      "description": "Mano-P: Open-source GUI-VLA agent for edge devices. #1 on OSWorld (specialized, 58.2%). Runs locally on Apple M4 Mac mini/MacBook \u2014 no data leaves your device.Mano-P \u662f\u4e00\u4e2a\u5f00\u6e90 GUI-VLA \u9879\u76ee\uff0c\u652f\u6301\u5728 Mac mini/MacBook \u4e0a\u6216\u901a\u8fc7\u7b97\u529b\u68d2\u672c\u5730\u8fd0\u884c\u63a8\u7406\uff0c\u5b9e\u73b0\u7eaf\u89c6\u89c9\u9a71\u52a8\u7684\u8de8\u5e73\u53f0 GUI \u81ea\u52a8\u5316\u64cd\u4f5c\u3002\u6570\u636e\u5b8c\u5168\u672c\u5730\u5904\u7406\uff0c\u652f\u6301\u590d\u6742\u591a\u6b65\u9aa4\u4efb\u52a1\u89c4\u5212\u4e0e\u6267\u884c\u3002",
+      "authors": null,
+      "organization": "Mininglamp-AI",
+      "url": "https://github.com/Mininglamp-AI/Mano-P",
+      "github_url": "https://github.com/Mininglamp-AI/Mano-P",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "Apache-2.0",
+      "license_type": "permissive",
+      "published_date": "2026-06-25",
+      "github_stars": 2772,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "computer-use-agents",
+        "desktop-automation",
+        "edge-computing",
+        "gui-automation",
+        "gui-grounding",
+        "local-inference",
+        "mano",
+        "mano-p"
+      ],
+      "source": "github",
+      "scores": null
+    },
+    {
+      "id": "gh-open-gigaai-giga-brain-0",
+      "name": "giga-brain-0",
+      "category": "vla_policy",
+      "summary": "GigaBrain-0: A World Model-Powered Vision-Language-Action Model",
+      "description": "GigaBrain-0: A World Model-Powered Vision-Language-Action Model",
+      "authors": null,
+      "organization": "open-gigaai",
+      "url": "https://github.com/open-gigaai/giga-brain-0",
+      "github_url": "https://github.com/open-gigaai/giga-brain-0",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "Apache-2.0",
+      "license_type": "permissive",
+      "published_date": "2026-09-09",
+      "github_stars": 2656,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [],
+      "source": "github",
+      "scores": null
+    },
+    {
+      "id": "gh-OpenHelix-Team-VLA-Adapter",
+      "name": "VLA-Adapter",
+      "category": "vla_policy",
+      "summary": "VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model",
+      "description": "VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model",
+      "authors": null,
+      "organization": "OpenHelix-Team",
+      "url": "https://github.com/OpenHelix-Team/VLA-Adapter",
+      "github_url": "https://github.com/OpenHelix-Team/VLA-Adapter",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "MIT",
+      "license_type": "permissive",
+      "published_date": "2026-03-19",
+      "github_stars": 2312,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "embodied-ai",
+        "robotics",
+        "vision-language-action-model"
+      ],
+      "source": "github",
+      "scores": null
+    }
+  ]
+}

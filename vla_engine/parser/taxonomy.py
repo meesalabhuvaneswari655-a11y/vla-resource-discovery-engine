@@ -1,0 +1,157 @@
+"""Domain taxonomy for Vision-Language Models and Robotics AI / VLA."""
+
+from typing import Dict, List
+from vla_engine.models.resource import Category
+
+# Task ontology mapping
+TASK_ONTOLOGY: Dict[str, List[str]] = {
+    "object_manipulation": [
+        "manipulation",
+        "manipulate",
+        "pick",
+        "place",
+        "grasp",
+        "drawer",
+        "insertion",
+        "sorting",
+        "wiping",
+        "pour",
+        "fold",
+        "dexterous",
+        "tabletop",
+        "tool use",
+    ],
+    "instruction_following": [
+        "natural-language instruction following",
+        "natural language",
+        "instruction following",
+        "language instruction",
+        "language-conditioned",
+        "text-conditioned",
+        "command following",
+        "prompt-guided",
+    ],
+    "navigation": [
+        "navigation",
+        "mobile base",
+        "point goal",
+        "obstacle avoidance",
+        "waypoint",
+        "locomotion",
+    ],
+    "bimanual": [
+        "bimanual",
+        "dual-arm",
+        "two-arm",
+        "two hands",
+        "aloha",
+        "coordination",
+    ],
+}
+
+# Modality ontology mapping
+MODALITY_ONTOLOGY: Dict[str, List[str]] = {
+    "vision": ["vision", "camera", "rgb", "depth", "rgb-d", "wrist camera", "point cloud", "visual"],
+    "language": ["language", "text", "natural language", "instruction", "prompt", "nlp"],
+    "action": [
+        "action",
+        "end-effector",
+        "eef",
+        "joint angles",
+        "joint positions",
+        "velocities",
+        "torques",
+        "trajectories",
+        "action chunking",
+        "diffusion policy",
+        "flow matching",
+    ],
+}
+
+# Known embodiments in VLA literature
+EMBODIMENT_ONTOLOGY: Dict[str, List[str]] = {
+    "Franka Emika Panda": ["franka", "panda", "7-dof arm"],
+    "WidowX 250": ["widowx", "trossen", "interbotix"],
+    "ALOHA Bimanual": ["aloha", "mobile aloha", "dual viperx", "bimanual viperx"],
+    "UR5 / UR10": ["ur5", "ur10", "universal robots"],
+    "Mobile Manipulator": ["mobile manipulator", "fetch", "stretch", "tiago"],
+    "Humanoid": ["humanoid", "unitree h1", "unitree g1", "figure"],
+}
+
+# Category indicator keywords
+CATEGORY_TRIGGERS: Dict[Category, List[str]] = {
+    Category.VLM_BACKBONE: [
+        "vlm",
+        "vision-language model",
+        "vlm architecture",
+        "vision encoder",
+        "prismatic",
+        "paligemma",
+        "qwen",
+        "llava",
+        "flamingo",
+        "clip",
+        "siglip",
+        "multimodal foundation",
+    ],
+    Category.VLA_POLICY: [
+        "vla",
+        "vision-language-action",
+        "vla model",
+        "vla architecture",
+        "robot policy",
+        "action head",
+        "openvla",
+        "octo",
+        "act",
+        "action chunking",
+        "diffusion policy",
+        "pi0",
+    ],
+    Category.ROBOTICS_DATASET: [
+        "robotics dataset",
+        "robotics datasets",
+        "dataset",
+        "datasets",
+        "open-source datasets",
+        "trajectories",
+        "demonstrations",
+        "open x-embodiment",
+        "oxe",
+        "bridgedata",
+        "droid",
+        "rlds",
+    ],
+    Category.SIMULATION: [
+        "simulation environment",
+        "simulation environments",
+        "simulation",
+        "simulator",
+        "simulators",
+        "environments",
+        "isaac lab",
+        "isaac sim",
+        "maniskill",
+        "robocasa",
+        "simpler",
+        "sapien",
+        "sim-to-real",
+        "benchmark",
+    ],
+    Category.TRAINING_FRAMEWORK: [
+        "training framework",
+        "training frameworks",
+        "framework",
+        "frameworks",
+        "training library",
+        "toolkit",
+        "codebase",
+        "lerobot",
+        "robomimic",
+        "fine-tuning",
+        "pretraining",
+        "deepspeed",
+        "peft",
+        "lora",
+    ],
+}

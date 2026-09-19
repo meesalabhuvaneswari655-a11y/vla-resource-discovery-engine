@@ -1,0 +1,387 @@
+{
+  "cached_at": 1789809374.9608731,
+  "provider": "huggingface",
+  "data": [
+    {
+      "id": "hf-2toINF-X-VLA-Pt",
+      "name": "2toINF/X-VLA-Pt",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: 2toINF/X-VLA-Pt with 10,418 downloads and 13 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id '2toINF/X-VLA-Pt'. Tagged with: safetensors, xvla, robotics, vla, custom_code, arxiv:2510.10274.",
+      "authors": null,
+      "organization": "2toINF",
+      "url": "https://huggingface.co/2toINF/X-VLA-Pt",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/2toINF/X-VLA-Pt",
+      "paper_url": null,
+      "license": "apache-2.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 10418,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/2toINF/X-VLA-Pt"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "safetensors",
+        "xvla",
+        "robotics",
+        "vla",
+        "custom_code",
+        "arxiv:2510.10274",
+        "base_model:microsoft/Florence-2-large",
+        "base_model:finetune:microsoft/Florence-2-large",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-vlabki-DKM_item_v1p4",
+      "name": "vlabki/DKM_item_v1p4",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: vlabki/DKM_item_v1p4 with 3,937 downloads and 0 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'vlabki/DKM_item_v1p4'. Tagged with: safetensors, ppo_agent, region:us.",
+      "authors": null,
+      "organization": "vlabki",
+      "url": "https://huggingface.co/vlabki/DKM_item_v1p4",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/vlabki/DKM_item_v1p4",
+      "paper_url": null,
+      "license": "unknown",
+      "license_type": "unknown",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 3937,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/vlabki/DKM_item_v1p4"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "safetensors",
+        "ppo_agent",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-vlabki-GV_item_v1p4",
+      "name": "vlabki/GV_item_v1p4",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: vlabki/GV_item_v1p4 with 3,792 downloads and 0 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'vlabki/GV_item_v1p4'. Tagged with: safetensors, ppo_agent, region:us.",
+      "authors": null,
+      "organization": "vlabki",
+      "url": "https://huggingface.co/vlabki/GV_item_v1p4",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/vlabki/GV_item_v1p4",
+      "paper_url": null,
+      "license": "unknown",
+      "license_type": "unknown",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 3792,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/vlabki/GV_item_v1p4"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "safetensors",
+        "ppo_agent",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-2toINF-X-VLA-Libero",
+      "name": "2toINF/X-VLA-Libero",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: 2toINF/X-VLA-Libero with 2,834 downloads and 1 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id '2toINF/X-VLA-Libero'. Tagged with: safetensors, xvla, robotics, vla, custom_code, arxiv:2510.10274.",
+      "authors": null,
+      "organization": "2toINF",
+      "url": "https://huggingface.co/2toINF/X-VLA-Libero",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/2toINF/X-VLA-Libero",
+      "paper_url": null,
+      "license": "apache-2.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 2834,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/2toINF/X-VLA-Libero"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "safetensors",
+        "xvla",
+        "robotics",
+        "vla",
+        "custom_code",
+        "arxiv:2510.10274",
+        "base_model:microsoft/Florence-2-large",
+        "base_model:finetune:microsoft/Florence-2-large",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-UCSC-VLAA-openvision-vit-small-patch16-224",
+      "name": "UCSC-VLAA/openvision-vit-small-patch16-224",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: UCSC-VLAA/openvision-vit-small-patch16-224 with 2,788 downloads and 0 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'UCSC-VLAA/openvision-vit-small-patch16-224'. Tagged with: open_clip, image-feature-extraction, arxiv:2505.04601, license:apache-2.0, region:us.",
+      "authors": null,
+      "organization": "UCSC-VLAA",
+      "url": "https://huggingface.co/UCSC-VLAA/openvision-vit-small-patch16-224",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/UCSC-VLAA/openvision-vit-small-patch16-224",
+      "paper_url": null,
+      "license": "apache-2.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 2788,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/UCSC-VLAA/openvision-vit-small-patch16-224"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "open_clip",
+        "image-feature-extraction",
+        "arxiv:2505.04601",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-kemjensak-unlv_vla_policy",
+      "name": "kemjensak/unlv_vla_policy",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: kemjensak/unlv_vla_policy with 2,777 downloads and 0 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'kemjensak/unlv_vla_policy'. Tagged with: lerobot, safetensors, robotics, pi05, dataset:kemjensak/unlv_vla, base_model:lerobot/pi05_base.",
+      "authors": null,
+      "organization": "kemjensak",
+      "url": "https://huggingface.co/kemjensak/unlv_vla_policy",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/kemjensak/unlv_vla_policy",
+      "paper_url": null,
+      "license": "apache-2.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 2777,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/kemjensak/unlv_vla_policy"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "pi05",
+        "dataset:kemjensak/unlv_vla",
+        "base_model:lerobot/pi05_base",
+        "base_model:finetune:lerobot/pi05_base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-vladmandic-Anima-1.0-Base",
+      "name": "vladmandic/Anima-1.0-Base",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: vladmandic/Anima-1.0-Base with 2,449 downloads and 0 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'vladmandic/Anima-1.0-Base'. Tagged with: diffusers, safetensors, text-to-image, base_model:circlestone-labs/Anima, base_model:finetune:circlestone-labs/Anima, license:mit.",
+      "authors": null,
+      "organization": "vladmandic",
+      "url": "https://huggingface.co/vladmandic/Anima-1.0-Base",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/vladmandic/Anima-1.0-Base",
+      "paper_url": null,
+      "license": "mit",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 2449,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/vladmandic/Anima-1.0-Base"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "base_model:circlestone-labs/Anima",
+        "base_model:finetune:circlestone-labs/Anima",
+        "license:mit",
+        "diffusers:AnimaTextToImagePipeline",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-vladmandic-Krea-2-Turbo-sdnq-hadamard-uint4",
+      "name": "vladmandic/Krea-2-Turbo-sdnq-hadamard-uint4",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: vladmandic/Krea-2-Turbo-sdnq-hadamard-uint4 with 1,936 downloads and 2 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'vladmandic/Krea-2-Turbo-sdnq-hadamard-uint4'. Tagged with: diffusers, safetensors, diffusers:Krea2Pipeline, 8-bit, region:us.",
+      "authors": null,
+      "organization": "vladmandic",
+      "url": "https://huggingface.co/vladmandic/Krea-2-Turbo-sdnq-hadamard-uint4",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/vladmandic/Krea-2-Turbo-sdnq-hadamard-uint4",
+      "paper_url": null,
+      "license": "unknown",
+      "license_type": "unknown",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 1936,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/vladmandic/Krea-2-Turbo-sdnq-hadamard-uint4"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "diffusers:Krea2Pipeline",
+        "8-bit",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    }
+  ]
+}

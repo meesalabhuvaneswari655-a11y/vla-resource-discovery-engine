@@ -1,0 +1,216 @@
+{
+  "cached_at": 1789809375.1049948,
+  "provider": "arxiv",
+  "data": [
+    {
+      "id": "arxiv-2608.17095v1",
+      "name": "Inference-Time Attention Steering for Vision-Language-Action Driving Models",
+      "category": "vla_policy",
+      "summary": "Vision-language-action (VLA) driving models couple a reasoning stage with a diffusion-based trajectory decoder, but do not give a direct way to redirect attenti...",
+      "description": "Vision-language-action (VLA) driving models couple a reasoning stage with a diffusion-based trajectory decoder, but do not give a direct way to redirect attention toward safety-critical actors at inference time without retraining. We studied a bounded additive pre-softmax attention bias on the visual tokens of detector localized traffic actors on Alpamayo-R1's Qwen3-VL backbone. It is applied as a fail open forward pre-hook with no weight changes. On 50 lane-change scenarios from the Physical AI World Model Synthetic dataset. The trajectory decoder shows a monotonic dose response in the bias magnitude, separate from a paired zero bias control at every tested magnitude. It reaches $\\approx 17$\\,cm mean displacement with lateral shifts up to $\\sim 140$\\ cm at the clamp. A layer ablation places the action-relevant signal in late layers, where the effect increases with the number of hooked layers (2.0cm for the first 8 layers; 67.6cm for all 36). A per call injection audit explains why the Chain-of-Causation text never changes. The mask based bias never reaches the reasoning pathway in this serving stack, so the invariance is verified exposure, not robustness. Steered trajectories tend to shift toward the attended actor, suggesting the bias governs where the model looks rather than encoding a target behavior.",
+      "authors": "Darshan Nagendra Prasad, Lars Ullrich, Knut Graichen",
+      "organization": null,
+      "url": "http://arxiv.org/abs/2608.17095v1",
+      "github_url": null,
+      "hf_url": null,
+      "paper_url": "http://arxiv.org/abs/2608.17095v1",
+      "license": "ArXiv Open Access",
+      "license_type": "permissive",
+      "published_date": "2026-08-17",
+      "github_stars": 0,
+      "hf_downloads": 0,
+      "citations": 45,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "instruction following"
+      ],
+      "modalities": [
+        "Vision",
+        "Language",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "arxiv",
+        "research-paper",
+        "robotics"
+      ],
+      "source": "arxiv",
+      "scores": null
+    },
+    {
+      "id": "arxiv-2508.15201v2",
+      "name": "Survey of Vision-Language-Action Models for Embodied Manipulation",
+      "category": "vla_policy",
+      "summary": "Embodied intelligence systems, which enhance agent capabilities through continuous environment interactions, have garnered significant attention from both acade...",
+      "description": "Embodied intelligence systems, which enhance agent capabilities through continuous environment interactions, have garnered significant attention from both academia and industry. Vision-Language-Action models, inspired by advancements in large foundation models, serve as universal robotic control frameworks that substantially improve agent-environment interaction capabilities in embodied intelligence systems. This expansion has broadened application scenarios for embodied AI robots. This survey comprehensively reviews VLA models for embodied manipulation. Firstly, it chronicles the developmental trajectory of VLA architectures. Subsequently, we conduct a detailed analysis of current research across 5 critical dimensions: VLA model structures, training datasets, pre-training methods, post-training methods, and model evaluation. Finally, we synthesize key challenges in VLA development and real-world deployment, while outlining promising future research directions.",
+      "authors": "Haoran Li, Yuhui Chen, Wenbo Cui, Weiheng Liu",
+      "organization": null,
+      "url": "http://arxiv.org/abs/2508.15201v2",
+      "github_url": null,
+      "hf_url": null,
+      "paper_url": "http://arxiv.org/abs/2508.15201v2",
+      "license": "ArXiv Open Access",
+      "license_type": "permissive",
+      "published_date": "2025-08-21",
+      "github_stars": 0,
+      "hf_downloads": 0,
+      "citations": 45,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "instruction following"
+      ],
+      "modalities": [
+        "Vision",
+        "Language",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "arxiv",
+        "research-paper",
+        "robotics"
+      ],
+      "source": "arxiv",
+      "scores": null
+    },
+    {
+      "id": "arxiv-2508.13073v3",
+      "name": "Large VLM-based Vision-Language-Action Models for Robotic Manipulation: A Survey",
+      "category": "vla_policy",
+      "summary": "Robotic manipulation, a key frontier in robotics and embodied AI, requires precise motor control and multimodal understanding, yet traditional rule-based method...",
+      "description": "Robotic manipulation, a key frontier in robotics and embodied AI, requires precise motor control and multimodal understanding, yet traditional rule-based methods fail to scale or generalize in unstructured, novel environments. In recent years, Vision-Language-Action (VLA) models, built upon Large Vision-Language Models (VLMs) pretrained on vast image-text datasets, have emerged as a transformative paradigm. This survey provides the first systematic, taxonomy-oriented review of large VLM-based VLA models for robotic manipulation. We begin by clearly defining large VLM-based VLA models and delineating two principal architectural paradigms: (1) monolithic models, encompassing single-system and dual-system designs with differing levels of integration; and (2) hierarchical models, which explicitly decouple planning from execution via interpretable intermediate representations. Building on this foundation, we present an in-depth examination of large VLM-based VLA models: (1) integration with advanced domains, including reinforcement learning, training-free optimization, learning from human videos, and world model integration; (2) synthesis of distinctive characteristics, consolidating architectural traits, operational strengths, and the datasets and benchmarks that support their development; (3) identification of promising directions, including memory mechanisms, 4D perception, efficient adaptation, multi-agent cooperation, and other emerging capabilities. This survey consolidates recent advances to resolve inconsistencies in existing taxonomies, mitigate research fragmentation, and fill a critical gap through the systematic integration of studies at the intersection of large VLMs and robotic manipulation. We provide a regularly updated project page to document ongoing progress: https://github.com/JiuTian-VL/Large-VLM-based-VLA-for-Robotic-Manipulation",
+      "authors": "Rui Shao, Wei Li, Lingsen Zhang, Renshan Zhang",
+      "organization": null,
+      "url": "http://arxiv.org/abs/2508.13073v3",
+      "github_url": null,
+      "hf_url": null,
+      "paper_url": "http://arxiv.org/abs/2508.13073v3",
+      "license": "ArXiv Open Access",
+      "license_type": "permissive",
+      "published_date": "2025-08-18",
+      "github_stars": 0,
+      "hf_downloads": 0,
+      "citations": 45,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "instruction following"
+      ],
+      "modalities": [
+        "Vision",
+        "Language",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "arxiv",
+        "research-paper",
+        "robotics"
+      ],
+      "source": "arxiv",
+      "scores": null
+    },
+    {
+      "id": "arxiv-2512.11769v1",
+      "name": "BLURR: A Boosted Low-Resource Inference for Vision-Language-Action Models",
+      "category": "vla_policy",
+      "summary": "Vision-language-action (VLA) models enable impressive zero shot manipulation, but their inference stacks are often too heavy for responsive web demos or high fr...",
+      "description": "Vision-language-action (VLA) models enable impressive zero shot manipulation, but their inference stacks are often too heavy for responsive web demos or high frequency robot control on commodity GPUs. We present BLURR, a lightweight inference wrapper that can be plugged into existing VLA controllers without retraining or changing model checkpoints. Instantiated on the pi-zero VLA controller, BLURR keeps the original observation interfaces and accelerates control by combining an instruction prefix key value cache, mixed precision execution, and a single step rollout schedule that reduces per step computation. In our SimplerEnv based evaluation, BLURR maintains task success rates comparable to the original controller while significantly lowering effective FLOPs and wall clock latency. We also build an interactive web demo that allows users to switch between controllers and toggle inference options in real time while watching manipulation episodes. This highlights BLURR as a practical approach for deploying modern VLA policies under tight compute budgets.",
+      "authors": "Xiaoyu Ma, Zhengqing Yuan, Zheyuan Zhang, Kaiwen Shi",
+      "organization": null,
+      "url": "http://arxiv.org/abs/2512.11769v1",
+      "github_url": null,
+      "hf_url": null,
+      "paper_url": "http://arxiv.org/abs/2512.11769v1",
+      "license": "ArXiv Open Access",
+      "license_type": "permissive",
+      "published_date": "2025-12-12",
+      "github_stars": 0,
+      "hf_downloads": 0,
+      "citations": 45,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "instruction following"
+      ],
+      "modalities": [
+        "Vision",
+        "Language",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "arxiv",
+        "research-paper",
+        "robotics"
+      ],
+      "source": "arxiv",
+      "scores": null
+    },
+    {
+      "id": "arxiv-2603.13782v1",
+      "name": "Your Vision-Language-Action Model Already Has Attention Heads For Path Deviation Detection",
+      "category": "vla_policy",
+      "summary": "Vision-Language-Action (VLA) models have demonstrated strong potential for predicting semantic actions in navigation tasks, demonstrating the ability to reason ...",
+      "description": "Vision-Language-Action (VLA) models have demonstrated strong potential for predicting semantic actions in navigation tasks, demonstrating the ability to reason over complex linguistic instructions and visual contexts. However, they are fundamentally hindered by visual-reasoning hallucinations that lead to trajectory deviations. Addressing this issue has conventionally required training external critic modules or relying on complex uncertainty heuristics. In this work, we discover that monitoring a few attention heads within a frozen VLA model can accurately detect path deviations without incurring additional computational overhead. We refer to these heads, which inherently capture the spatiotemporal causality between historical visual sequences and linguistic instructions, as Navigation Heads. Using these heads, we propose an intuitive, training-free anomaly-detection framework that monitors their signals to detect hallucinations in real time. Surprisingly, among over a thousand attention heads, a combination of just three is sufficient to achieve a 44.6 % deviation detection rate with a low false-positive rate of 11.7 %. Furthermore, upon detecting a deviation, we bypass the heavy VLA model and trigger a lightweight Reinforcement Learning (RL) policy to safely execute a shortest-path rollback. By integrating this entire detection-to-recovery pipeline onto a physical robot, we demonstrate its practical robustness. All source code will be publicly available.",
+      "authors": "Jaehwan Jeong, Evelyn Zhu, Jinying Lin, Emmanuel Jaimes",
+      "organization": null,
+      "url": "http://arxiv.org/abs/2603.13782v1",
+      "github_url": null,
+      "hf_url": null,
+      "paper_url": "http://arxiv.org/abs/2603.13782v1",
+      "license": "ArXiv Open Access",
+      "license_type": "permissive",
+      "published_date": "2026-03-14",
+      "github_stars": 0,
+      "hf_downloads": 0,
+      "citations": 45,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "instruction following"
+      ],
+      "modalities": [
+        "Vision",
+        "Language",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "arxiv",
+        "research-paper",
+        "robotics"
+      ],
+      "source": "arxiv",
+      "scores": null
+    }
+  ]
+}

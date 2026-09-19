@@ -1,0 +1,207 @@
+{
+  "cached_at": 1789809376.4530404,
+  "provider": "github",
+  "data": [
+    {
+      "id": "gh-wenbowen123-iros20-6d-pose-tracking",
+      "name": "iros20-6d-pose-tracking",
+      "category": "vlm_backbone",
+      "summary": "[IROS 2020] se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains",
+      "description": "[IROS 2020] se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains",
+      "authors": null,
+      "organization": "wenbowen123",
+      "url": "https://github.com/wenbowen123/iros20-6d-pose-tracking",
+      "github_url": "https://github.com/wenbowen123/iros20-6d-pose-tracking",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "NOASSERTION",
+      "license_type": "unknown",
+      "published_date": "2023-08-30",
+      "github_stars": 423,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "3d",
+        "6d-pose-estimation",
+        "6dof-pose",
+        "6dof-tracking",
+        "computer-vision",
+        "dataset",
+        "domain-adaptation",
+        "human-robot-interaction"
+      ],
+      "source": "github",
+      "scores": null
+    },
+    {
+      "id": "gh-InternRobotics-InternManip",
+      "name": "InternManip",
+      "category": "robotics_dataset",
+      "summary": "An All-in-one robot manipulation learning suite for policy models training and evaluation on various datasets and benchmarks.",
+      "description": "An All-in-one robot manipulation learning suite for policy models training and evaluation on various datasets and benchmarks.",
+      "authors": null,
+      "organization": "InternRobotics",
+      "url": "https://github.com/InternRobotics/InternManip",
+      "github_url": "https://github.com/InternRobotics/InternManip",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "MIT",
+      "license_type": "permissive",
+      "published_date": "2025-10-15",
+      "github_stars": 175,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [],
+      "source": "github",
+      "scores": null
+    },
+    {
+      "id": "gh-haosulab-ManiSkill-Legacy",
+      "name": "ManiSkill-Legacy",
+      "category": "robotics_dataset",
+      "summary": "SAPIEN Manipulation Skill Benchmark (NeurIPS 2021 Track on Datasets and Benchmarks)",
+      "description": "SAPIEN Manipulation Skill Benchmark (NeurIPS 2021 Track on Datasets and Benchmarks)",
+      "authors": null,
+      "organization": "haosulab",
+      "url": "https://github.com/haosulab/ManiSkill-Legacy",
+      "github_url": "https://github.com/haosulab/ManiSkill-Legacy",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "Apache-2.0",
+      "license_type": "permissive",
+      "published_date": "2022-08-24",
+      "github_stars": 155,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "3d-computer-vision",
+        "reinforcement-learning",
+        "robotics"
+      ],
+      "source": "github",
+      "scores": null
+    },
+    {
+      "id": "gh-markusgrotz-peract_bimanual",
+      "name": "peract_bimanual",
+      "category": "simulation",
+      "summary": "Code for PerAct\u00b2, a language-conditioned imitation learning agent designed for bimanual robotic manipulation using the RLBench environment. It include",
+      "description": "Code for PerAct\u00b2, a language-conditioned imitation learning agent designed for bimanual robotic manipulation using the RLBench environment. It includes dataset generation, training scripts, and evaluation tools for 6-DoF control of two robot arms across complex tasks.",
+      "authors": null,
+      "organization": "markusgrotz",
+      "url": "https://github.com/markusgrotz/peract_bimanual",
+      "github_url": "https://github.com/markusgrotz/peract_bimanual",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "Apache-2.0",
+      "license_type": "permissive",
+      "published_date": "2025-02-23",
+      "github_stars": 131,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "ai",
+        "bimanual",
+        "embodied-ai",
+        "ml",
+        "robotic-manipulation",
+        "robotics",
+        "robots"
+      ],
+      "source": "github",
+      "scores": null
+    },
+    {
+      "id": "gh-KavrakiLab-motion_bench_maker",
+      "name": "motion_bench_maker",
+      "category": "robotics_dataset",
+      "summary": "Generate and benchmark datasets for robot manipulation problems",
+      "description": "Generate and benchmark datasets for robot manipulation problems",
+      "authors": null,
+      "organization": "KavrakiLab",
+      "url": "https://github.com/KavrakiLab/motion_bench_maker",
+      "github_url": "https://github.com/KavrakiLab/motion_bench_maker",
+      "hf_url": null,
+      "paper_url": null,
+      "license": "BSD-3-Clause",
+      "license_type": "permissive",
+      "published_date": "2024-05-23",
+      "github_stars": 112,
+      "hf_downloads": 0,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation"
+      ],
+      "modalities": [
+        "Vision",
+        "Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [],
+      "source": "github",
+      "scores": null
+    }
+  ]
+}

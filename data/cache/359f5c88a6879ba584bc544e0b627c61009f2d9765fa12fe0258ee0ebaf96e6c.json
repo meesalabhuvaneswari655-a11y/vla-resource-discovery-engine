@@ -1,0 +1,273 @@
+{
+  "cached_at": 1789809377.6756885,
+  "provider": "huggingface",
+  "data": [
+    {
+      "id": "hf-ds-nvidia-PhysicalAI-Robotics-GR00T-X-Embodiment-Sim",
+      "name": "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim (Dataset)",
+      "category": "robotics_dataset",
+      "summary": "Robotics dataset hosted on Hugging Face with 1,255,297 downloads.",
+      "description": "Demonstrations / trajectory dataset 'nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim' on Hugging Face Hub.",
+      "authors": null,
+      "organization": "nvidia",
+      "url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim",
+      "paper_url": null,
+      "license": "cc-by-4.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 1255297,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "manipulation demonstrations",
+        "trajectory replay"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Robot Proprioception",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "task_categories:robotics",
+        "license:cc-by-4.0",
+        "region:us",
+        "robotics"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-ds-fleaven-Retargeted_AMASS_for_robotics",
+      "name": "fleaven/Retargeted_AMASS_for_robotics (Dataset)",
+      "category": "robotics_dataset",
+      "summary": "Robotics dataset hosted on Hugging Face with 87,534 downloads.",
+      "description": "Demonstrations / trajectory dataset 'fleaven/Retargeted_AMASS_for_robotics' on Hugging Face Hub.",
+      "authors": null,
+      "organization": "fleaven",
+      "url": "https://huggingface.co/datasets/fleaven/Retargeted_AMASS_for_robotics",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/datasets/fleaven/Retargeted_AMASS_for_robotics",
+      "paper_url": null,
+      "license": "cc-by-4.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 87534,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "manipulation demonstrations",
+        "trajectory replay"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Robot Proprioception",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "task_categories:robotics",
+        "language:en",
+        "license:cc-by-4.0",
+        "size_categories:10K<n<100K",
+        "region:us",
+        "AMASS",
+        "Retarget",
+        "Robotics",
+        "Humanoid"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-ds-nvidia-PhysicalAI-Robotics-Open-H-Embodiment",
+      "name": "nvidia/PhysicalAI-Robotics-Open-H-Embodiment (Dataset)",
+      "category": "robotics_dataset",
+      "summary": "Robotics dataset hosted on Hugging Face with 58,966 downloads.",
+      "description": "Demonstrations / trajectory dataset 'nvidia/PhysicalAI-Robotics-Open-H-Embodiment' on Hugging Face Hub.",
+      "authors": null,
+      "organization": "nvidia",
+      "url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment",
+      "paper_url": null,
+      "license": "cc-by-4.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 58966,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "manipulation demonstrations",
+        "trajectory replay"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Robot Proprioception",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "task_categories:robotics",
+        "license:cc-by-4.0",
+        "region:us",
+        "robotics",
+        "healthcare"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-ds-nvidia-PhysicalAI-Robotics-Locomanipulation-GRAIL",
+      "name": "nvidia/PhysicalAI-Robotics-Locomanipulation-GRAIL (Dataset)",
+      "category": "robotics_dataset",
+      "summary": "Robotics dataset hosted on Hugging Face with 29,393 downloads.",
+      "description": "Demonstrations / trajectory dataset 'nvidia/PhysicalAI-Robotics-Locomanipulation-GRAIL' on Hugging Face Hub.",
+      "authors": null,
+      "organization": "nvidia",
+      "url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Locomanipulation-GRAIL",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Locomanipulation-GRAIL",
+      "paper_url": null,
+      "license": "cc-by-nc-4.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 29393,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "manipulation demonstrations",
+        "trajectory replay"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Robot Proprioception",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "license:cc-by-nc-4.0",
+        "size_categories:1K<n<10K",
+        "modality:image",
+        "modality:video",
+        "arxiv:2606.05160",
+        "region:us",
+        "humanoid-locomanipulation",
+        "whole-body-control",
+        "human-object-interaction",
+        "video-to-motion"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-ds-tars-robotics-OmniVitac",
+      "name": "tars-robotics/OmniVitac (Dataset)",
+      "category": "robotics_dataset",
+      "summary": "Robotics dataset hosted on Hugging Face with 27,749 downloads.",
+      "description": "Demonstrations / trajectory dataset 'tars-robotics/OmniVitac' on Hugging Face Hub.",
+      "authors": null,
+      "organization": "tars-robotics",
+      "url": "https://huggingface.co/datasets/tars-robotics/OmniVitac",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/datasets/tars-robotics/OmniVitac",
+      "paper_url": null,
+      "license": "cc-by-nc-4.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 27749,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "manipulation demonstrations",
+        "trajectory replay"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Robot Proprioception",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "license:cc-by-nc-4.0",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-ds-Torc-Robotics-TruckDrive",
+      "name": "Torc-Robotics/TruckDrive (Dataset)",
+      "category": "robotics_dataset",
+      "summary": "Robotics dataset hosted on Hugging Face with 25,753 downloads.",
+      "description": "Demonstrations / trajectory dataset 'Torc-Robotics/TruckDrive' on Hugging Face Hub.",
+      "authors": null,
+      "organization": "Torc-Robotics",
+      "url": "https://huggingface.co/datasets/Torc-Robotics/TruckDrive",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/datasets/Torc-Robotics/TruckDrive",
+      "paper_url": null,
+      "license": "other",
+      "license_type": "unknown",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 25753,
+      "citations": 0,
+      "has_checkpoints": false,
+      "checkpoint_urls": [],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "manipulation demonstrations",
+        "trajectory replay"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Robot Proprioception",
+        "Actions"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "license:other",
+        "arxiv:2603.02413",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "cached_at": 1789809376.8113518,
+  "provider": "huggingface",
+  "data": [
+    {
+      "id": "hf-lerobot-smolvla_base",
+      "name": "lerobot/smolvla_base",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: lerobot/smolvla_base with 148,784 downloads and 445 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'lerobot/smolvla_base'. Tagged with: lerobot, safetensors, vision-language-action, imitation-learning, robotics, en.",
+      "authors": null,
+      "organization": "lerobot",
+      "url": "https://huggingface.co/lerobot/smolvla_base",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/lerobot/smolvla_base",
+      "paper_url": null,
+      "license": "apache-2.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 148784,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/lerobot/smolvla_base"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "vision-language-action",
+        "imitation-learning",
+        "robotics",
+        "en",
+        "arxiv:2506.01844",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-lerobot-pi0_base",
+      "name": "lerobot/pi0_base",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: lerobot/pi0_base with 41,273 downloads and 28 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'lerobot/pi0_base'. Tagged with: lerobot, safetensors, vision-language-action, imitation-learning, robotics, en.",
+      "authors": null,
+      "organization": "lerobot",
+      "url": "https://huggingface.co/lerobot/pi0_base",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/lerobot/pi0_base",
+      "paper_url": null,
+      "license": "gemma",
+      "license_type": "unknown",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 41273,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/lerobot/pi0_base"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "vision-language-action",
+        "imitation-learning",
+        "robotics",
+        "en",
+        "license:gemma",
+        "eval-results",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-lerobot-pi05_libero_finetuned_v044",
+      "name": "lerobot/pi05_libero_finetuned_v044",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: lerobot/pi05_libero_finetuned_v044 with 25,190 downloads and 25 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'lerobot/pi05_libero_finetuned_v044'. Tagged with: lerobot, safetensors, vision-language-action, imitation-learning, robotics, en.",
+      "authors": null,
+      "organization": "lerobot",
+      "url": "https://huggingface.co/lerobot/pi05_libero_finetuned_v044",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/lerobot/pi05_libero_finetuned_v044",
+      "paper_url": null,
+      "license": "gemma",
+      "license_type": "unknown",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 25190,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/lerobot/pi05_libero_finetuned_v044"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "vision-language-action",
+        "imitation-learning",
+        "robotics",
+        "en",
+        "dataset:HuggingFaceVLA/libero",
+        "arxiv:2504.16054",
+        "license:gemma",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-lerobot-pi05_base",
+      "name": "lerobot/pi05_base",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: lerobot/pi05_base with 20,358 downloads and 103 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'lerobot/pi05_base'. Tagged with: lerobot, safetensors, vision-language-action, imitation-learning, robotics, en.",
+      "authors": null,
+      "organization": "lerobot",
+      "url": "https://huggingface.co/lerobot/pi05_base",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/lerobot/pi05_base",
+      "paper_url": null,
+      "license": "gemma",
+      "license_type": "unknown",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 20358,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/lerobot/pi05_base"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "vision-language-action",
+        "imitation-learning",
+        "robotics",
+        "en",
+        "arxiv:2504.16054",
+        "license:gemma",
+        "eval-results",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-lerobot-smolvla_libero",
+      "name": "lerobot/smolvla_libero",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: lerobot/smolvla_libero with 16,397 downloads and 7 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'lerobot/smolvla_libero'. Tagged with: lerobot, safetensors, robotics, smolvla, dataset:lerobot/libero, arxiv:2506.01844.",
+      "authors": null,
+      "organization": "lerobot",
+      "url": "https://huggingface.co/lerobot/smolvla_libero",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/lerobot/smolvla_libero",
+      "paper_url": null,
+      "license": "apache-2.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 16397,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/lerobot/smolvla_libero"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "smolvla",
+        "dataset:lerobot/libero",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-lerobot-resnet10",
+      "name": "lerobot/resnet10",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: lerobot/resnet10 with 13,155 downloads and 1 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'lerobot/resnet10'. Tagged with: pytorch, safetensors, resnet10, feature-extraction, jax-conversion, transformers.",
+      "authors": null,
+      "organization": "lerobot",
+      "url": "https://huggingface.co/lerobot/resnet10",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/lerobot/resnet10",
+      "paper_url": null,
+      "license": "apache-2.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 13155,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/lerobot/resnet10"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "pytorch",
+        "safetensors",
+        "resnet10",
+        "feature-extraction",
+        "jax-conversion",
+        "transformers",
+        "resnet",
+        "hil-serl",
+        "Lerobot",
+        "vision"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-lerobot-smolvla_robotwin",
+      "name": "lerobot/smolvla_robotwin",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: lerobot/smolvla_robotwin with 6,621 downloads and 4 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'lerobot/smolvla_robotwin'. Tagged with: lerobot, safetensors, smolvla, robotics, dataset:pepijn223/robotwin_unified_v3, arxiv:2506.01844.",
+      "authors": null,
+      "organization": "lerobot",
+      "url": "https://huggingface.co/lerobot/smolvla_robotwin",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/lerobot/smolvla_robotwin",
+      "paper_url": null,
+      "license": "apache-2.0",
+      "license_type": "permissive",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 6621,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/lerobot/smolvla_robotwin"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "smolvla",
+        "robotics",
+        "dataset:pepijn223/robotwin_unified_v3",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    },
+    {
+      "id": "hf-lerobot-pi05_libero_base",
+      "name": "lerobot/pi05_libero_base",
+      "category": "vla_policy",
+      "summary": "Hugging Face model: lerobot/pi05_libero_base with 6,122 downloads and 29 likes.",
+      "description": "Model repository hosted on Hugging Face Hub under id 'lerobot/pi05_libero_base'. Tagged with: lerobot, safetensors, vision-language-action, imitation-learning, robotics, en.",
+      "authors": null,
+      "organization": "lerobot",
+      "url": "https://huggingface.co/lerobot/pi05_libero_base",
+      "github_url": null,
+      "hf_url": "https://huggingface.co/lerobot/pi05_libero_base",
+      "paper_url": null,
+      "license": "gemma",
+      "license_type": "unknown",
+      "published_date": null,
+      "github_stars": 0,
+      "hf_downloads": 6122,
+      "citations": 0,
+      "has_checkpoints": true,
+      "checkpoint_urls": [
+        "https://huggingface.co/lerobot/pi05_libero_base"
+      ],
+      "supported_embodiments": [],
+      "action_space": null,
+      "target_tasks": [
+        "robotics manipulation",
+        "vision-language"
+      ],
+      "modalities": [
+        "RGB Vision",
+        "Language",
+        "Robot Action"
+      ],
+      "compatible_frameworks": [],
+      "compatible_simulators": [],
+      "hardware_requirements": {},
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "vision-language-action",
+        "imitation-learning",
+        "robotics",
+        "en",
+        "license:gemma",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "scores": null
+    }
+  ]
+}
