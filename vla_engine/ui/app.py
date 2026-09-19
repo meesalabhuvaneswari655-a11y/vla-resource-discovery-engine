@@ -162,7 +162,7 @@ if run_btn or "blueprint_cache" in st.session_state:
         st.metric("Compatibility", f"{blueprint.compatibility_score:.1f} / 100")
 
     # 2. Recommended Optimal Technical Stack
-    st.markdown("### 2. Recommended Optimal VLA Technical Stack")
+    st.markdown("### 2. Suggested VLA Technical Stack")
     st.info(f"**Coherence Verdict:** {blueprint.compatibility_verdict}")
 
     cols = st.columns(len(blueprint.top_stack))
@@ -194,7 +194,7 @@ if run_btn or "blueprint_cache" in st.session_state:
     ])
 
     with tab_leaderboard:
-        st.markdown("#### Multi-Factor Leaderboards by Category")
+        st.markdown("#### Ranked Resources by Category")
         for cat, res_list in blueprint.all_ranked_resources.items():
             st.markdown(f"##### {cat.display_name}")
             data = []
